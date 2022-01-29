@@ -8,3 +8,15 @@ que puedo incluir en mi portafolio?
 7. objetivos de la carrera?
 8. ejemplos de codigo?
 9. 
+
+
+colores:
+azul: #0072FF
+#6F88FC
+#5270FF
+azul trasparente: #0072FF
+blanco-gris: #f9f9f9f9 
+
+texto:
+normal = open sans
+titles = open sans bold
