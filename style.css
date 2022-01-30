@@ -122,7 +122,7 @@ html {
 } 
 
 .conteiner-img-socialmedia {
-    display: flex;
+    display: inline-block;
     height: 300px;
     width: 100%;
 }
@@ -132,27 +132,27 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     list-style: none;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin: 20px 45px 0;
     background-color: none;
 }
 
 .img-hero {
+    margin-top: -200px;
+    float: right;
     background-image: url('img/me2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 250px;
     height: 250px;
-    position: absolute;
-    right: 0;
 } 
 
 
 .socialMdia-icons  {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     background-image: url('img/facebook.png');
     background-position: center;
     background-repeat: no-repeat;
