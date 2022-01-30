@@ -91,3 +91,30 @@ html {
         color: var(--color-title-blue);
     }
 }
+
+/* hero part */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0 0 30px;
+}
+
+.hero-txt p {
+    font-size: var(--title-size);
+    color: var(--main-color);
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid var(--color-title-blue);
+    width: 21ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent}
+} 
