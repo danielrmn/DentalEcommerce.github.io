@@ -139,7 +139,7 @@ html {
 }
 
 .img-hero {
-    margin-top: -200px;
+    margin-top: -150px;
     float: right;
     background-image: url('img/me2.png');
     background-position: center;
@@ -157,4 +157,51 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.aboutMe-container {
+    display: grid;
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutMe-container p {
+    text-align: left;
+    font-size: var(--title-size);
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.aboutMe-container a {
+    font-size: var(--title-size);
+    color: var(--main-color);
+    line-height: 2.6rem;
+}
+
+.aboutMe-container a:nth-child(2) {
+    text-decoration: none;
+}
+
+.aboutMe-container a:nth-child(4) {
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+
+.cv-conteiner {
+    display: flex;
+    width: 160px;
+    height: 50px;
+    margin: 30px auto 0;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 400px;
+}
+
+.cv-conteiner a {
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--main-color);
 }
