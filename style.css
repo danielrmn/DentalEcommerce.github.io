@@ -67,7 +67,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:830px) {
     .menu-btn span{
         display: block;
     }
@@ -156,10 +156,26 @@ header {
 .socialMdia-icons  {
     width: 70px;
     height: 70px;
-    background-image: url('img/facebook.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
+}
+
+.socialMedia-container .facebook {
+    background-image: url('img/1.png');
+}
+
+.socialMedia-container .in {
+    background-image: url('img/2.png');
+}
+
+.socialMedia-container .github {
+    background-image: url('img/3.png');
+}
+
+.socialMedia-container .instagram {
+    background-image: url('img/4.png');
 }
 
 .aboutMe-container {
@@ -237,13 +253,18 @@ main {
 
 .MyProyects-services .img {
     display: grid;
-    margin: 120px auto;
+    margin: 0 auto 215px;
     width: 320px;
     height: 300px;
+    text-decoration: none;
     background-image: url('img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.MyProyects-services .img:nth-child(1) {
+    margin-top: 100px;
 }
 
 .MyProyects-services p {
@@ -251,6 +272,12 @@ main {
     font-size: var(--title-size);
     color: var(--main-color);
     font-weight: bold;
-    padding-top: 320px;
+    padding-top: 270px;
 
+}
+
+.MyProyects-services .img img {
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
 }
