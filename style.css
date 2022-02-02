@@ -59,6 +59,7 @@ header {
 
 .menu li a:hover{
     color: #000;
+    font-size: 2rem;
 }
 
 .menu-btn span{
@@ -76,13 +77,13 @@ header {
         top: 8vh;
         left: 0;
         background-color: #f2f2f2;
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 530px;
         flex-direction: column;
         /* align-items: center; */
         line-height: 100px;
         transition: all 0.5s ease;
-        transform: translateX(-100%);
+        transform: translateX(-110%);
     
     }
     .menu.active {
@@ -138,7 +139,7 @@ header {
     width: 150px;
     height: 150px;
     margin: 20px 45px 0;
-    background-color: none;
+    /* background-color: none; */
 }
 
 .img-hero {
@@ -162,19 +163,19 @@ header {
     cursor: pointer;
 }
 
-.socialMedia-container .facebook {
+.facebook {
     background-image: url('img/1.png');
 }
 
-.socialMedia-container .in {
+.in {
     background-image: url('img/2.png');
 }
 
-.socialMedia-container .github {
+.github {
     background-image: url('img/3.png');
 }
 
-.socialMedia-container .instagram {
+.instagram {
     background-image: url('img/4.png');
 }
 
@@ -225,13 +226,11 @@ header {
     color: var(--main-color);
 }
 
-main {
-    margin-top: 150px;
-}
 
 .MyProyects-conteiner {
     width: 100%;
     height: auto;
+    padding-top: 150px;
 }
 
 .MyProyects-txt {
@@ -241,10 +240,10 @@ main {
 
 .MyProyects-txt p {
     text-align: center;
-    font-size: var(--title-size);
+    font-size: var(--txt-size);
     color: var(--main-color);
-    /* line-height: 2.6rem; */
-    padding-bottom: 15px;
+    line-height: 2.6rem; 
+    padding: 0 30px 15px;
 }
 
 .MyProyects-txt p:nth-child(2) {
@@ -253,7 +252,7 @@ main {
 
 .MyProyects-services .img {
     display: grid;
-    margin: 0 auto 215px;
+    margin: 0 auto 120px;
     width: 320px;
     height: 300px;
     text-decoration: none;
@@ -280,4 +279,108 @@ main {
     margin-left: 30px;
     width: 50px;
     height: 50px;
+}
+
+.skills-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+}
+
+.skills_txt-conteiner {
+    margin: 30px auto 80px;
+}
+
+.skills_txt-conteiner p {
+    font-size: var(--title-size);
+    text-align: center;
+    color: var(--color-title-blue);
+}
+
+.skills-container p:nth-child(2) {
+    font-weight: bold;
+}
+
+.skill_img-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.skill_img-conteiner img{
+    width: 140px;
+    margin: 20px auto;
+}
+
+.contact-conteiner {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.contact-conteiner p {
+    text-align: center;
+    font-size: var(--title-size);
+    color: var(--main-color);
+    padding-bottom: 15px;
+}
+
+
+.contact-conteiner p:nth-child(2) {
+ padding-bottom: 60px;
+}
+
+.contact-conteiner p:nth-child(2) {
+    font-weight: bold;
+}
+
+.contact-icons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 50px;
+}
+
+.icon  {
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.especific-socialMedia-container {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.E_icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.gmail {
+    background-image: url('img/gmail.png');
+}
+.telegram {
+    background-image: url('img/telegram.png');
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
 }

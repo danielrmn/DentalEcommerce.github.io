@@ -12,18 +12,17 @@
     <link rel="stylesheet" href="descktop.css" media="(min-width: 930px)">
 </head>
 <body>
-    <header>
+    <header id="home"> 
         <nav class="nav">
             <div class="logo">
                 <h1>danielrmn</h1>
             </div>
             <ul class="menu" id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">All my projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Buy Services</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#BuyServices">Buy Services</a></li>
             </ul>
             <div class="menu-btn" id="menu-btn">
                 <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span>
@@ -54,7 +53,7 @@
             </div>    
     </header>
     <main>
-        <section class="MyProyects-conteiner">
+        <section class="MyProyects-conteiner" id="services">
             <div class="MyProyects-txt">
                 <p>Services</p>
                 <p>My services</p>
@@ -83,10 +82,37 @@
                 </a>
             </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="skills-container" id="skills">
+            <div class="skills_txt-conteiner">
+                <p>Skills</p>
+                <p>My skills</p>
+            </div>
+            <div class="skill_img-conteiner" >
+                <img src="img/html.png" alt="html icon">
+                <img src="img/css.png" alt="css icon">
+                <img src="img/JS.png" alt="js icon">
+                <img src="img/wordpress.png" alt="wordpress icon">
+                <img src="img/react.png" alt="react icon">
+                <img src="img/node.png" alt="node icon">
+            </div>
+        </section>
+        <section class="contact-conteiner" id="contact">
+            <p>Contact</p>
+            <p>My contact</p>
+            <ul class="contact-icons-container">
+                <li class="icon facebook"><a href=""></a></li>
+                <li class="icon in"><a href=""></a></li>
+                <li class="icon github"><a href=""></a></li>
+                <li class="icon instagram"><a href=""></a></li>
+            </ul>
+            <ul class="especific-socialMedia-container">
+                <li class="E_icon gmail"><a href=""></a></li>
+                <li class="E_icon telegram"><a href=""></a></li>
+            </ul>
+        </section>
+        <section class = "buy-services-conteiner" id="BuyServices"></section>
     </main>
+    <footer></footer>
 
     <script src="script.js"></script>
 </body>
