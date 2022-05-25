@@ -1,4 +1,19 @@
+.All-web-templates-hero {
+    grid-template-columns: repeat(3, 1fr);
 
+}
+
+.web-templates-hero{
+    margin-bottom: 100px;
+    width: 450px;
+    height: 500px;
+}
+
+.web-templates-hero:hover{
+    margin-bottom: 100px;
+    width: 460px;
+    height: 510px;
+}
 
 
 
