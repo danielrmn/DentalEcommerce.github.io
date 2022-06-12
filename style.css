@@ -34,7 +34,8 @@ header {
     padding: 0 50px;
 }
 
-.logo h1 {
+.logo a {
+    text-decoration: none;
     font-size: var(--title-size);
     font-weight: bold;
     color: var(--color-txt-white);
@@ -64,6 +65,7 @@ header {
 
 .menu-btn span{
     display: none;
+    cursor: pointer;
 }
 
 
@@ -377,6 +379,9 @@ header {
 }
 .telegram {
     background-image: url('img/telegram.png');
+}
+.whatsapp {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png');
 }
 
 footer {
